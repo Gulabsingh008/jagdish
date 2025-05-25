@@ -72,7 +72,7 @@ S_DB_URI = environ.get('S_DB_URI', "")   # This Db is for File Data Store When F
 
 
 # Premium And Referal Settings
-PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
+PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', False)) # Set Ture Or False
 
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
@@ -88,10 +88,10 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+VLgdy8CXshBlMmJl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ITACHI24X7')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TJ_support') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/TJ_TAMIM')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+ahtSS1EQFoYxYmNl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+CKhOJDD0st80MTFl')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+S4l4jF3QrZY4Mzhl') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/bambhaniya_jagdish_79')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -112,7 +112,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'linkwale.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'b2c0ac62bab006f97dc6305bdd177e0db353a474')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Veryfi_Linkwale/3')
