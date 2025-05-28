@@ -77,8 +77,8 @@ PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) #
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month') # time in week, day, month.
-PAYMENT_QR = environ.get('PAYMENT_QR', 'https://envs.sh/Q1j.jpg') # payment code picture url.
-PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>✯ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ ✯/n/n✅ ₹05 = 1 ᴅᴀʏ ✓/n✅ ₹10 = 3 ᴅᴀʏs ✓/n✅ ₹20 = 1 ᴡᴇᴇᴋ ✓/n✅ ₹40 = 1 ᴍᴏɴᴛʜs ✓/n✅ ₹99 = 3 ᴍᴏɴᴛʜs ✓/n/n➲ ᴜᴘɪ ɪᴅ - <code>yashkamaliya95@okicici</code>/n/n✾ ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs ✾/n/n❏ ᴅɪʀᴇᴄᴛ ғɪʟᴇs/n❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ/n❏ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ/n❏ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ/n❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ/n❏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs/n❏ ʀᴇǫᴜᴇsᴛ ᴡɪʟʟ ʙᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ 1ᴅ ɪꜰ ᴀᴠᴀɪʟᴀʙʟᴇ/n/nꆜ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ ꐠ/n/n〠 ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇᴘʀᴇᴍɪᴜᴍ/n/n⚘ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan</b>')
+PAYMENT_QR = environ.get('PAYMENT_QR', 'https://envs.sh/NQZ.jpg') # payment code picture url.
+PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>✯ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ ✯ /n  /n ✅ ₹05 = 1 ᴅᴀʏ ✓ /n ✅ ₹10 = 3 ᴅᴀʏs ✓ /n ✅ ₹20 = 1 ᴡᴇᴇᴋ ✓ /n ✅ ₹40 = 1 ᴍᴏɴᴛʜs ✓ /n ✅ ₹99 = 3 ᴍᴏɴᴛʜs ✓ /n  /n ➲ ᴜᴘɪ ɪᴅ - <code>yashkamaliya95@okicici</code> /n  /n ✾ ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs ✾ /n  /n ❏ ᴅɪʀᴇᴄᴛ ғɪʟᴇs /n ❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ /n ❏ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ /n ❏ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ /n ❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ /n ❏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs /n ❏ ʀᴇǫᴜᴇsᴛ ᴡɪʟʟ ʙᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ 1ᴅ ɪꜰ ᴀᴠᴀɪʟᴀʙʟᴇ /n  /n ꆜ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ ꐠ /n  /n 〠 ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇᴘʀᴇᴍɪᴜᴍ /n  /n ⚘ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan</b>')
 
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
