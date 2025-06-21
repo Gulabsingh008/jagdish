@@ -2324,7 +2324,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.DISCLAIMER,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-    
+        )
     elif query.data == "sticker":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
