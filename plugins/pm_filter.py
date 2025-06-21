@@ -1955,7 +1955,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
+            InlineKeyboardButton('ᴅɪsᴄʟᴀɪᴍᴇʀ', callback_data='dis'),
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', url="https://t.me/Af_mhakal")
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
@@ -2314,6 +2314,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+
+    elif query.data == "dis":
+        buttons = [[
+            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='about')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)  
+        await query.message.edit_text(
+            text=script.DISCLAIMER,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+    
     elif query.data == "sticker":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
