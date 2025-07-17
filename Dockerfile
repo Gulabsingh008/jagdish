@@ -1,5 +1,6 @@
 # Base Image
-FROM python:3.10.8-slim-buster
+FROM python:3.10-slim-bookworm
+
 
 # Install system dependencies
 RUN apt update && apt install -y git
