@@ -78,7 +78,31 @@ PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) #
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month') # time in week, day, month.
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://envs.sh/NQZ.jpg') # payment code picture url.
-PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>✯ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ ✯\n✅ ₹05 = 1 ᴅᴀʏ ✓\n✅ ₹10 = 3 ᴅᴀʏs ✓\n✅ ₹20 = 1 ᴡᴇᴇᴋ ✓\n✅ ₹40 = 1 ᴍᴏɴᴛʜs ✓/n✅ ₹99 = 3 ᴍᴏɴᴛʜs ✓\n\n➲ ᴜᴘɪ ɪᴅ - <code>yashkamaliya95@okicici</code>\n\n✾ ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs ✾\n\n❏ ᴅɪʀᴇᴄᴛ ғɪʟᴇs\n❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ\n❏ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ\n❏ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ\n❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ\n❏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs\n❏ ʀᴇǫᴜᴇsᴛ ᴡɪʟʟ ʙᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ 1ᴅ ɪꜰ ᴀᴠᴀɪʟᴀʙʟᴇ\n\nꆜ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ ꐠ\n\n〠 ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇᴘʀᴇᴍɪᴜᴍ\n\n⚘ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan</b>')
+PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '''<b>✯ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ ✯
+
+✅ ₹05 = 1 ᴅᴀʏ ✓
+✅ ₹10 = 3 ᴅᴀʏs ✓
+✅ ₹20 = 1 ᴡᴇᴇᴋ ✓
+✅ ₹40 = 1 ᴍᴏɴᴛʜ ✓
+✅ ₹99 = 3 ᴍᴏɴᴛʜs ✓
+
+➲ ᴜᴘɪ ɪᴅ - <code>yashkamaliya95@okicici</code>
+
+✾ ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs ✾
+
+❏ ᴅɪʀᴇᴄᴛ ғɪʟᴇs  
+❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ  
+❏ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ  
+❏ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ  
+❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ  
+❏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs  
+❏ ʀᴇǫᴜᴇsᴛ ᴡɪʟʟ ʙᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ 1ᴅ ɪꜰ ᴀᴠᴀɪʟᴀʙʟᴇ
+
+ꆜ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ ꐠ
+
+〠 ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ
+
+⚘ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan</b>''')
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
@@ -89,7 +113,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+ahtSS1EQFoYxYmNl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+CKhOJDD0st80MTFl')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+S4l4jF3QrZY4Mzhl') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+gVTXekxU98owZGY1') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/bambhaniya_jagdish_79')
 
 # True Or False
