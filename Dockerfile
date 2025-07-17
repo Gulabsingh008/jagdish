@@ -1,16 +1,20 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
+# Base Image
 FROM python:3.10.8-slim-buster
 
-RUN apt update && apt upgrade -y
-RUN apt install git -y
-COPY requirements.txt /requirements.txt
+# Install system dependencies
+RUN apt update && apt install -y git
 
-RUN cd /
-RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /VJ-FILTER-BOT
+# Set working directory
 WORKDIR /VJ-FILTER-BOT
-COPY . /VJ-FILTER-BOT
-CMD ["python", "bot.py", "hold.py"]
+
+# Copy project files
+COPY . .
+
+# Install Python requirements
+RUN pip install --upgrade pip && pip install -r requirements.txt
+
+# Make the shell script executable
+RUN chmod +x start.sh
+
+# Start both scripts via shell
+CMD ["bash", "start.sh"]
